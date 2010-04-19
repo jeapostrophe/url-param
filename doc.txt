@@ -1,0 +1,41 @@
+_url-param_ : URL Parameters
+==========================================
+
+By Jay McCarthy <jay.mccarthy@gmail.com>
+
+Keywords: _net_
+
+Introduction
+============
+
+The hashed version uses as _hash-store_ to store the serialized
+data. It's pretty nice.
+
+Files
+====
+_secure.ss_
+_url-param.ss_
+_hashed-url-param.ss_
+
+_FILE.ss_
+---------------
+
+Require it like this:
+
+> (require (planet "FILE.ss" ("jaymccarthy" "url-param.plt" 1)))
+
+It provides the follow identifiers:
+
+Example
+=======
+
+See _url-param-test.ss_ or _hashed-url-param-test.ss_
+
+History
+======
+
+June 22nd, 2006
+     * Added hashed URL params
+
+June 21st, 2006
+     * Initial
